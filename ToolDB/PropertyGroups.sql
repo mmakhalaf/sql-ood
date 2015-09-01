@@ -1,0 +1,5 @@
+﻿CREATE TABLE [PropertyGroups]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] TEXT NOT NULL
+)

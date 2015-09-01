@@ -1,0 +1,6 @@
+﻿CREATE TABLE [Tools]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+    [Name] TEXT NOT NULL, 
+    [TypeID] INT NOT NULL REFERENCES ToolTypes(Id)
+)
